@@ -1,0 +1,102 @@
+@media(max-width:900px){
+
+    /* NAV */
+    .top-ul li{
+        font-size:15px;
+    }
+    /* TOP-VIEW */
+    .top-view{
+        height:450px;/*CC*/
+    }
+}
+
+@media(min-width:601px){
+    .contact-option,.txt{
+        display:flex;
+    }
+}
+
+@media(max-width:600px){
+    /* HEADER */
+    header{
+        height:70px;
+        padding-top:12px;
+    }
+    .header-logo img{
+        width:50px;
+    }
+    #sub-ttl,.header-Rtxt{
+        font-size:12px;
+    }
+    #main-ttl{
+        font-size:20px;
+    }
+    #header-ttl{
+        font-size:30px;
+    }
+    /* NAV */
+    .top-nav{
+        height:56px;
+    }
+    .top-ul li{
+        font-size:12px;
+        line-height:56px;
+    }
+    /*/*/*/*/*/
+    .contact-h1,.ContactForm-h1{
+        border-top:5px white solid;
+        height:40px;
+        padding-left:15px;
+    }
+    .contact-wrapper h1, .ContactForm-wrapper h1{
+        line-height:35px;
+        font-size:16px;
+    }
+    .contents p{
+        font-size:14px;
+    }
+    /* Contact */
+    .heading p{
+        font-size:16px;
+    }
+
+    /*CONACT-FORM*/
+    .option label{
+        font-size:14px;
+    }
+    .txt input,textarea,.txt label,textarea label,.contact-option p{
+        width:100%;
+    }
+    .button{
+        width:150px;
+        height:30px;
+        border-radius:5px;
+        margin-top:10px;
+        
+    }
+    .submit-btn{
+        display:flex;
+        justify-content: center;
+    }
+     /*PAGE-TOP-BTN*/
+     .page-top-btn{
+        position:fixed;
+        bottom:15px;
+        right:15px;
+    }
+    .page-top-btn a{
+        font-size:20px;
+    }
+    /* FOOTER */
+    footer{
+        height:220px;
+        padding-top:10px;
+    }
+    .footer-ttl img{
+        width:50px;
+    }
+    .footer-address p,.footer-nav li{
+        font-size:12px;
+    }
+
+}
